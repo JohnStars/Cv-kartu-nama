@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="index.css">
+    <link rel="icon" href="favicon (1).ico">
+    <title>Card name</title>
+    <style>
+    .left-container{
+      position: fixed;
+      width: 400px;
+      height: 100vh;
+      background-color: dimgray;
+    }
+    .right-container{
+      position: fixed;
+      left: 400px;
+      height: 100vh;
+      background-color: midnightblue;
+      color: white;
+    }
+      .photo-contact {
+        position: absolute;
+        top: 100px;
+        text-align: center;
+      }
+      .photo {
+        width: 50%;
+        border-radius: 50%;
+      }
+      .tombol {
+        width: 50%;
+        background-color: white;
+        border-radius: 8px;
+        margin-bottom: 10px;
+        font-size: 1,1rem;
+        font-weight: bold;
+      }
+      .tombol:hover{
+        background-color: black;
+        color: white;
+        transition: 1s;
+      }
+      .profile{
+        padding: 0 15px;
+      }
+      .tentang{
+        margin: 0 15px;
+      }
+      .hobi{
+        margin: 0 15px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="left-container">
+      
+       <div class="photo-contact"> 
+        <img src="Koboynime.png" class="photo">
+        <h3>Follow me!</h3>
+        
+        <a href="">
+        <button class="tombol">Tiktok</button>
+        </a>
+        
+        <a href="">
+        <button class="tombol">Github</button>
+        </a>
+        
+      </div>
+      
+    </div>
+    <div class="right-container">
+      
+      <div id="profile" class="profile">
+        <h1>Shiny John Stars</h1>
+        </div>
+        <br>
+        <div id="about" class="tentang">
+          <h2>Keahlian</h2> 
+          <p>Membuat website sederhana dengan css dan html</p>
+          </div>
+          <br>
+          <div id="hobby" class="hobi">
+            <ul>
+              <li>Main game</li>
+              <li>Ngoding (kalau mood)</li>
+            </ul>
+          </div>
+      
+    </div>
+  </body>
+</html>
